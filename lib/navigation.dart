@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MaterialApp(
-    title: 'Navigation Basics',
+    title: 'Navigation Basics  ',
     home: FirstRoute(),
   ));
 }
@@ -41,7 +41,7 @@ class SecondRoute extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Second Route'),
       ),
-      body: Center(
+      body: Center( 
         child: ElevatedButton(
           // Within the `FirstRoute` widget
               onPressed: () {
