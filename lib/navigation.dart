@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MaterialApp(
-    title: 'Navigation Basics  ',
+    title: 'Navigation Basics ',
     home: FirstRoute(),
   ));
 }
